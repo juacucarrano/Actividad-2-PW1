@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 80%;
+    height: 100%;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 0.1rem solid black;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+}
+
+.datos {
+    width: 25%;
+}
+
+.principal {
+    width: 75%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imagen {
+    width: 10%;
+    height: 20vh;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.datosSecundarios ul{
+    margin-left: 2rem;
+}
